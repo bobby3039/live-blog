@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheNewsHive</title>
+    <script>function displayDate(){document.getelementById("showdate").innerhtml=Date();}</script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/72d38e6a47.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="heading" ID="header1">
+            <p style="font-size:4em;">T</p>
+            <p style="font-size:2.8em;">HE</p>
+            <p style="font-size:4em;">N</p>
+            <p style="font-size:2.8em;">EWS</p>
+            <p style="font-size:4em;">H</p>
+            <p style="font-size:2.8em;">IVE</p>
+        </div>
+        <div class="header-container2">
+            <nav>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">NEWS</a></li>
+                    <li><a href="#">WORLD</a></li>
+                    <li><a href="#">BUSINESS</a></li>
+                    <li><a href="#">POLITICS</a></li>
+                    <li><a href="#">ENTERTAINMENT</a></li>
+                    <li><a href="#">SPORTS</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar flex" style="margin-left: 1cm;">
+                <input id="search-text" type="text" class="news-input" placeholder="e.g. Science">
+                <!-- <button id="search-button" class="search-button">Search</button> -->
+                <i class="fa-sharp fa-solid fa-magnifying-glass fa-2xl" ></i>
+                
+            </div>
+        </div>
+    </header>
+    <div class="breaking-news" >
+     <nav>
+        <ul>
+       <li><i class="fa-solid fa-bolt fa-xl"></i></li> 
+        <li style="font-weight: bold; color: black;">BREAKING NEWS</li>
+        <li style="margin-left: 2cm;">RCB qualified for IPL 2024 Playoffs</li>
+
+    </ul>
+     </div>
+    <main>
+       
+        <section class="articles">
+            <article class="featured-article">
+                <img src="newspaper.jpg" alt="Reading newspaper">
+                <h2>Why reading newspapers are more important than ever</h2>
+                <!-- <p>Culture | Featured</p> -->
+                <button>Culture</button>
+                <button>Featured</button>
+                <p>October 18, 2022</p>
+            </article>
+            <article class="featured-article">
+                <img src="jane.jpg" alt="Jane">
+                <h2>Jane became one of the most influential people</h2>
+                <!-- <p>Featured | Lifestyle</p> -->
+                <button>Featured</button>
+                <button>Lifestyle</button>
+                <p>October 18, 2022</p>
+            </article>
+            <article class="featured-article">
+                <img src="coffee.jpg" alt="Coffee">
+                <h2>What are the best type coffee in the world</h2>
+                <!-- <p>Featured | Food</p> -->
+                <button>Featured</button>
+                <button>Food</button>
+                <p>October 18, 2022</p>
+            </article>
+            <article class="featured-article">
+                <img src="gratitude.jpg" alt="Gratitude">
+                <h2>Practicing gratitude regularly can make you healthier</h2>
+                <!-- <p>Featured | Health</p> -->
+                <button>Featured</button>
+                <button>Health</button>
+                <p>October 18, 2022</p>
+            </article>
+        </section>
+        <aside>
+            <div class="latest">
+                <h3>Latest</h3>
+                <h3>Popular</h3>
+                <ul>
+                    <li><a href="#">ICC T20 World Cup 2022 Schedule updates</a> <span>October 21, 2022</span></li>
+                    <li><a href="#">Tropical depression: Mexico's pacific coast</a> <span>October 20, 2022</span></li>
+                    <li><a href="#">Local coming back on street again after</a> <span>October 20, 2022</span></li>
+                </ul>
+            </div>
+            <!-- <div class="popular">
+                <h3>Popular</h3>
+                <ul>
+                    <li><a href="#">ICC T20 World Cup 2022 Schedule updates</a> <span>October 21, 2022</span></li>
+                    <li><a href="#">Tropical depression: Mexico's pacific coast</a> <span>October 20, 2022</span></li>
+                    <li><a href="#">Local coming back on street again after</a> <span>October 20, 2022</span></li>
+                </ul>
+            </div> -->
+        </aside>
+    </main>
+  <script src="scripts.js"></script>
+</body>
+</html>
